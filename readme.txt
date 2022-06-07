@@ -1,6 +1,6 @@
 hello to the team
 //this you must do after cloning a repository
-in the terminal past this
+in the terminal past this type cd project then
 npm i -g react-scripts
 ---------------
 after install is completed past this

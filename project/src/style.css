@@ -1,13 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@500&family=Raleway:ital,wght@0,100;0,600;0,900;1,100;1,600;1,900&display=swap');
+
+* {
+    margin: 0px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
 }
-.nav-li{
+
+.nav-li {
     list-style: none;
 }
-.Header--h1{
+
+.Header--h1 {
     text-align: center;
-    background: blue;
+    background: #123421;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: aliceblue;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 300;
+
+
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.element1 {
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.element2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.element3 {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+
+}
+
+.main--imgs {
+    width: 400px;
+    height: 300px;
 }
