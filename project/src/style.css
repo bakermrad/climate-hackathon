@@ -5,3 +5,9 @@ nav {
 .nav-li{
     list-style: none;
 }
+.Header--h1{
+    text-align: center;
+    background: blue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
