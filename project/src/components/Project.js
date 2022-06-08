@@ -1,6 +1,8 @@
 import React from "react"
 
+
 export default function Project() {
+
     return (
        <div className="project--con">
            <div className="sidebar">
@@ -29,6 +31,9 @@ export default function Project() {
                    </ol>
                </div>
            </div>
+
+           <div className="map">
+            </div>
            {/* <svg width="360" height="260" viewBox="0 0 360 260" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Frame 1">
             <g id="whale">
