@@ -95,3 +95,78 @@ h1 {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+.project--con{
+    display: grid;
+    width: 98vw;
+    height: 98vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background: #123421;
+}
+.sidebar{
+    padding-top: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background:rgba(64, 61, 61, 0.45);
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
+
+}
+.pro--states h4{
+    color: aliceblue;
+    font-family: 'Lora', serif;
+}
+.pro--dis li{
+    color: aliceblue;
+    font-family: 'Lora', serif;
+}
+.pro--states{
+    padding: 15px;
+    margin: 30px;
+    background:rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+
+}
+.pro--dis{
+    padding: 40px;
+}
+.pro--form {
+    padding: 40px;
+}
+.pro--form label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 15px;
+    color: white;
+}
+.pro--form input{
+    padding-top: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+
+}
+.submit{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #6c94de;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    cursor: pointer;
+
+}
+
