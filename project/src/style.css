@@ -2,16 +2,32 @@
 
 * {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    background-color: cornflowerblue;
 }
 
 .nav-li {
     list-style: none;
 }
+.nav-li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+     font-family: 'Montserrat', sans-serif;    ;
+}
+.nav-li a:hover{
+    color: brown;
+    font-size: 30px;
+}
+
 
 .Header--h1 {
     text-align: center;
@@ -33,33 +49,28 @@ h1 {
 }
 
 .Main-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+
+   
 }
 
 .element1 {
-
-    grid-row-start: 1;
-    grid-row-end: 2;
+   
+    padding: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+
 
 }
 
 .element2 {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    padding: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-
-}
-
-.element3 {
-
-    grid-row-start: 3;
-    grid-row-end: 4;
-    display: flex;
 
 }
 
