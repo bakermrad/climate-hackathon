@@ -9,7 +9,7 @@
 nav {
     display: flex;
     justify-content: space-around;
-    padding-top:20px ;
+    padding-top: 20px;
     padding-bottom: 20px;
     background-color: cornflowerblue;
 }
@@ -17,13 +17,16 @@ nav {
 .nav-li {
     list-style: none;
 }
+
 .nav-li a {
     font-size: 20px;
     text-decoration: none;
     color: black;
-     font-family: 'Montserrat', sans-serif;    ;
+    font-family: 'Montserrat', sans-serif;
+    ;
 }
-.nav-li a:hover{
+
+.nav-li a:hover {
     color: brown;
     font-size: 30px;
 }
@@ -50,14 +53,14 @@ h1 {
 
 .Main-body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     flex-wrap: nowrap;
 
-   
+
 }
 
 .element1 {
-   
+
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -78,63 +81,77 @@ h1 {
     width: 400px;
     height: 300px;
 }
-.e1--text{
+
+.e1--text {
     width: 50%;
 }
-.e1--text p{
+
+.e1--text p {
     padding: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-.solution{
+
+.solution {
     padding: 70px;
 
 }
-.solution p{
+
+.solution p {
     padding: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
-.project--con{
+
+.project--con {
     display: grid;
     width: 98vw;
     height: 98vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background: #123421;
+    background-image: url(./map.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.sidebar{
+
+.sidebar {
     padding-top: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background:rgba(64, 61, 61, 0.45);
+    background: rgba(64, 61, 61, 0.45);
     box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
 
 }
-.pro--states h4{
+
+.pro--states h4 {
     color: aliceblue;
     font-family: 'Lora', serif;
 }
-.pro--dis li{
+
+.pro--dis li {
     color: aliceblue;
     font-family: 'Lora', serif;
 }
-.pro--states{
+
+.pro--states {
     padding: 15px;
     margin: 30px;
-    background:rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.45);
     border-radius: 20px;
 
 }
-.pro--dis{
+
+.pro--dis {
     padding: 40px;
 }
+
 .pro--form {
     padding: 40px;
 }
-.pro--form label{
+
+.pro--form label {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -142,7 +159,8 @@ h1 {
     line-height: 15px;
     color: white;
 }
-.pro--form input{
+
+.pro--form input {
     padding-top: 5px;
     margin-top: 10px;
     box-sizing: border-box;
@@ -153,7 +171,8 @@ h1 {
     height: 30px;
 
 }
-.submit{
+
+.submit {
     margin-left: 40px;
     margin-top: 10px;
     width: 100px;
@@ -165,8 +184,11 @@ h1 {
     font-size: 15px;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 
 }
-
+.whale{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
