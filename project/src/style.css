@@ -116,7 +116,7 @@ h1 {
 
 .project--con {
     display: grid;
-    width: 98vw;
+    width: 99vw;
     height: 98vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     background-image: url(./map2.jpeg);

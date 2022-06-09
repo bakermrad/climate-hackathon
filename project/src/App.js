@@ -11,7 +11,7 @@ export default function App() {
             <Header />
             <Body />
             <Project />
-            <Map />
+            {/*<Map /> */}
         </div>
     )
 }
