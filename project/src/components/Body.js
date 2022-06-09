@@ -8,7 +8,7 @@ export default function Body() {
                     <div className="e1--text">
                         <h1>The Problem</h1>
                         <p>Scientists estimate that ships kills 1000s of whales every year. Whales cannot avoid these
-                            big ships, and no accurate way of detecting whales has been found.</p>
+                            big ships, and there is currently no accurate way of detecting whales has been found.</p>
                     </div>
                     <img className="main--imgs  img1" src="images/img1.png" alt="" />
 
