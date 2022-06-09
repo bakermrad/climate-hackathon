@@ -14,8 +14,13 @@ export default function Body() {
 
                 </div>
                 <div className="element2">
-                    <img className="main--imgs" src="images/img2.jpg" alt="" />
+                <img className="main--imgs" src="images/img2.jpg" alt="" />
+
+                    <div className="e1--text">
                     <h1>problem 2</h1>
+                    <p>According to research carried out by non-profit Friend of the Sea, ship strikes kill more than 20,000 whales every year. This an alarming number, especially considering how close to extinction some species (such as the North Atlantic right whale) already are.</p>
+                    </div>
+
 
                 </div>
 
@@ -24,7 +29,7 @@ export default function Body() {
 
 
             </div>
-            <div className="solution">
+            <div id="solution" className="solution">
                 <h1>solution</h1>
                 <p>The favoured ways of avoiding collisions is for vessels to take into consideration the whales’
                     natural habitats and movements - these include going 300m deep for their food during the
@@ -42,11 +47,7 @@ export default function Body() {
                     they need to plan their routes. It includes an interactive map, where they can set their
                     starting and ending points, together with their requested departure or arrival time, to get the
                     most efficient route.
-                    Here we can show our site
-                    I don’t know if there’s any way of getting the satellite date mentioned here:
-                    https://news.sky.com/story/revealed-first-ever-global-map-of-whale-migration-exposes-growi
-                    ng-dangers-along-superhighways-12543620
-
+                    
                 </p>
             </div>
            

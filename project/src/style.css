@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -34,13 +35,17 @@ nav {
 
 .Header--h1 {
     text-align: center;
-    background: #123421;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: aliceblue;
+    color: #FFFFFF;
     font-family: 'Lora', serif;
-    font-size: 50px;
+    font-size: 10vh;
     font-weight: 300;
+    text-transform: capitalize;
+
 
 
 }
@@ -108,15 +113,18 @@ h1 {
     width: 98vw;
     height: 98vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-image: url(./map.jpeg);
+    background-image: url(./map.png);
     background-repeat: no-repeat;
     background-size: cover;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .sidebar {
     padding-top: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 7;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -189,6 +197,17 @@ h1 {
 
 }
 .whale{
-    grid-column-start: 3;
-    grid-column-end: 4;
+
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.list{
+    color: white ;
+}
+.logo{
+    width: 74px;
+    height: 38px;
+  
 }
