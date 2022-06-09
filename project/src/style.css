@@ -119,7 +119,7 @@ h1 {
     width: 98vw;
     height: 98vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-image: url(./map.png);
+    background-image: url(./map2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -217,7 +217,7 @@ h1 {
 
 }
 .whale{
-
+    opacity: 25%;
     grid-column-start: 6;
     grid-column-end: 7;
     grid-row-start: 6;
