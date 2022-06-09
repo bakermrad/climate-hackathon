@@ -6,7 +6,7 @@ export default function Body() {
             <div id="problem" className="problem">
                 <div className="element1">
                     <div className="e1--text">
-                        <h1>problem 1</h1>
+                        <h1>The Problem</h1>
                         <p>Scientists estimate that ships kills 1000s of whales every year. Whales cannot avoid these
                             big ships, and no accurate way of detecting whales has been found.</p>
                     </div>
@@ -17,7 +17,7 @@ export default function Body() {
                 <img className="main--imgs" src="images/img2.jpg" alt="" />
 
                     <div className="e1--text">
-                    <h1>problem 2</h1>
+                    <h1></h1>
                     <p>According to research carried out by non-profit Friend of the Sea, ship strikes kill more than 20,000 whales every year. This an alarming number, especially considering how close to extinction some species (such as the North Atlantic right whale) already are.</p>
                     </div>
 
@@ -30,7 +30,7 @@ export default function Body() {
 
             </div>
             <div id="solution" className="solution">
-                <h1>solution</h1>
+                <h1>Solution</h1>
                 <p>The favoured ways of avoiding collisions is for vessels to take into consideration the whales’
                     natural habitats and movements - these include going 300m deep for their food during the
                     day (rising to the surface only to get air), and going near the surface of the water at
