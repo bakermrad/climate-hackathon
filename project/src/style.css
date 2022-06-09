@@ -136,11 +136,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-transform: capitalize;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .sidebar {
     padding-top: 20px;
+    padding-left: 10px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
